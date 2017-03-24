@@ -33,7 +33,7 @@ end
 StoolA_index = find(SRA_metadata.description_s == -100);
 SalivaA_index = find(SRA_metadata.description_s == -101);
 
-%% Loop That Actually Does Stuff
+%% Loop with FFT Function Call
 
 % Choose Sequence Numbers for Analysis
 for i = 1:5
